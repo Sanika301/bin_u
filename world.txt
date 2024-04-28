@@ -1,0 +1,2 @@
+The error you're encountering indicates that you're trying to use the local keyword, which is specific to shell scripts, within a Python script. Python doesn't support the local keyword for defining variables in the same way as shell scripts do.
+grep -oE '\w+' wonderland.txt | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr > word_frequency.txt
